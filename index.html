@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>恐龙小游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score">得分: <span id="score">0</span></div>
+        <div class="game-info">
+            <p id="gameStatus">按空格或上箭头开始游戏</p>
+        </div>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <div class="instructions">
+            <p>🎮 游戏操作：</p>
+            <p>• 按 <strong>空格</strong> 或 <strong>上箭头</strong> 键让恐龙跳跃</p>
+            <p>• 躲避仙人掌和飞行生物</p>
+            <p>• 存活越久，得分越高！</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
